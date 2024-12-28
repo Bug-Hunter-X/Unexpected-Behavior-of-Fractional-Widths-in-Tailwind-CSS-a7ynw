@@ -1,0 +1,7 @@
+```html
+<div class="flex">
+  <div class="bg-red-500 p-4 w-1/2"></div>
+  <div class="bg-blue-500 p-4 w-1/2"></div>
+</div>
+```
+This code snippet uses `w-1/2` to make each div take up half the width. However, if the parent div doesn't have a defined width, the divs will not take up half of the available space. They'll just take up half of their available space which is unbounded and will overflow.
